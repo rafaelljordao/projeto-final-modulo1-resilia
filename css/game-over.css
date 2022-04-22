@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.pexels.com/photos/1446243/pexels-photo-1446243.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100vw;
+    height: 100vh;
+}
+
+#box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px;
+    background-color: rgba(245, 245, 220, 0.227);
+    width: 600px;
+    height: 200px;
+    -webkit-box-shadow: 1px 18px 50px 3px rgba(0,0,0,0.51); 
+    box-shadow: 1px 18px 50px 3px rgba(0,0,0,0.51);
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+#box2 {
+    margin: 20px 20px 20px 20px;
+    text-align: justify;
+    width: 600px;
+    height: 150px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 300;
+    padding-bottom: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 900;
+    background-color: rgb(245, 245, 220);
+    text-align: justify;
+}
+
+p {
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+  
+button {
+    width: 150px;
+    height: 33px;
+    background-color: black;
+    color: #f5f5dc;
+    font-weight: 900;
+    border-style: none;
+    font-size: 15px;
+    -webkit-box-shadow: -1px 16px 50px -19px rgba(0,0,0,0.58); 
+    box-shadow: -1px 16px 50px -19px rgba(0,0,0,0.58);
+    font-family: 'Courier New', Courier, monospace;
+}
+  
+button:hover {
+    transition-duration: 500ms;
+    -webkit-box-shadow: -1px 16px 50px -11px rgba(0,0,0,0.58); 
+    box-shadow: -1px 16px 50px -11px rgba(0,0,0,0.58);
+    -webkit-transform: translateY(-1px);
+    -moz-transform: translateY(-1px);
+    -ms-transform: translateY(-1px);
+    -o-transform: translateY(-1px);
+    transform: translateY(-1px);
+    cursor: pointer;
+}
+
+#box2 h1 {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: bolder;
+    background-color: rgb(245, 245, 220);
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}

@@ -12,6 +12,6 @@ function horusFase1() {
     if (escolha == "sombra" || escolha == "Sombra" || escolha == "SOMBRA"){
         window.location.href="./horus-f1-f2.html";
     } else {
-        window.location.href="game-over.html";
+        window.location.href="./game-over.html";
     }
 }
